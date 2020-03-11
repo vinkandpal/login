@@ -1,0 +1,13 @@
+@import './Base.scss';
+
+.heading1 {
+    font-size: $heading1-font-size;
+}
+
+.heading2 {
+    font-size: $heading2-font-size;
+}
+
+.App {
+  position: relative;
+}

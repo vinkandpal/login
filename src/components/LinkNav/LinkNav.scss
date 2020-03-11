@@ -1,0 +1,10 @@
+@import '../../app/styles/mixins/mixin.scss';
+
+.navigation-wrap{
+	margin-top: 12px;
+	padding-bottom: 32px;
+
+	.navigation-wrap__content{
+		@include element-basic-style(14px, 22px, #808080)
+	}
+}

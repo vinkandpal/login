@@ -1,0 +1,29 @@
+@import '../../../app/styles/global.scss';
+@import '../../../app/styles/mixins/mixin.scss';
+@import '../../../app/styles/functions.scss';
+
+
+.signin-wrap{
+	margin: 0 auto;
+	.signin-wrap__header{
+		@include element-basic-style(1.6rem, 2rem, $headingColor)
+	}
+
+	.signin-wrap__username{
+		margin-top: 0;
+	}
+
+	.signin-wrap__next-btn{
+		margin-top: rem-calc(12);
+	}
+
+}
+
+@media only screen and (min-width: #{lower-bound($medium-range)}) {
+	.signin-wrap{
+		.signin-wrap__username{
+			margin-top: rem-calc(12);
+		}
+
+}
+}

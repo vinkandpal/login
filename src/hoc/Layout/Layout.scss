@@ -1,0 +1,18 @@
+@import '../../app/styles/functions.scss';
+@import '../../app/styles/global.scss';
+
+.main-wrapper{
+	background: transparent;
+    margin: 0 auto;
+    padding: 0 rem-calc(30);
+    max-width: rem-calc(356);
+	margin-top: rem-calc(24);
+}
+
+
+@media only screen and (min-width: #{lower-bound($medium-range)}) {
+	.main-wrapper{
+		margin-top: rem-calc(48);
+    	max-width: rem-calc(512);
+	}
+}

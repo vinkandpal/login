@@ -1,0 +1,22 @@
+.footerNote {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    clear: both;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    
+    .footerNote__text {
+    	margin: 0;
+    }
+
+    .footerNote__link {
+    	color: #006eaf;
+    	&:hover{
+    		text-decoration: underline;
+    		color: #006eaf;
+    	}
+    }
+}

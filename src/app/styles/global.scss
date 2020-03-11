@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+$rem-base: 14px !default;
+
+$color-black: #000;
+$color-white: #fff;
+$gray-dark: #3c3c3c;
+
+$headingColor: $color-black;
+
+$textColor: $gray-dark;
+$textColor-secondary: #808080;
+$textColor-tertiary: #999;
+
+$link-color: #006eaf;
+
+$primaryButton-textColor: $color-white;
+$primaryButton-bgColor: #0696d7;
+$primaryButton-borderColor: #bbb;
+
+$error-borderColor: #ee4444;
+$error-bgColor: #dcdcdc;
+
+$toast-bgColor: #38abdf;
+$toast-textColor: $color-black;
+
+$baseFontSize: 16px !default;
+$baseFontFamily: Lato, Helvetica, Arial, sans-serif !default;
+$baseLineHeight: 18px !default;
+
+$parimary-bgColor: #fff;
+
+$heading1-font-size: 26px !default;
+$heading2-font-size: 22px !default;
+$heading3-font-size: 20px !default;
+
+$btn-font-size: 1rem !default;
+
+$screen: "only print, screen" !default;
+
+// Media Query Ranges
+$small-range: (0em, 37.4375em) !default;
+$smallplus-range:(37.5em, 47.9375em) !default;
+$medium-range: (48em, 59.9375em) !default;
+$large-range: (60em, 70em) !default;
+$xlarge-range: (90.063em, 120em) !default;
+$xxlarge-range: (120.063em, 99999999em) !default;

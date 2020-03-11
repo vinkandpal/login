@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation-wrap__link {
+	font-size: 14px;
+	line-height: 20px;
+	color: #006eaf;
+
+	&:hover{
+		text-decoration: underline;
+	}
+}
